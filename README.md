@@ -4,7 +4,7 @@ Vocalis
 Vocalis — это группа библиотек, целью которых является дополнение Aurora OS функциями, которые обычно
 требуются разработчикам, но пока недоступны.
 
-Roadmap
+## Roadmap
 
 - button
 - button-icon
@@ -28,7 +28,7 @@ Roadmap
 - kmm-agent
 - web-view
 
-# License
+## License
 
 ```
 Copyright 2023 Vitaliy Zarubin
