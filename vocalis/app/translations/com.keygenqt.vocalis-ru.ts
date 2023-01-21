@@ -4,22 +4,22 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="57"/>
+        <location filename="../qml/pages/AboutPage.qml" line="20"/>
         <source>About Application</source>
         <translation>О приложении</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="67"/>
+        <location filename="../qml/pages/AboutPage.qml" line="30"/>
         <source>#descriptionText</source>
         <translation>&lt;p&gt;Vocalis — это группа библиотек, целью которых является дополнение Aurora OS функциями, которые обычно требуются разработчикам, но пока недоступны.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="72"/>
+        <location filename="../qml/pages/AboutPage.qml" line="35"/>
         <source>3-Clause BSD License</source>
         <translation>Лицензия 3-Clause BSD</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="82"/>
+        <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>#licenseText</source>
         <translation>&lt;p&gt;&lt;i&gt;Copyright (C) 2022 com.keygenqt&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&lt;/p&gt;
@@ -34,7 +34,7 @@
 <context>
     <name>DefaultCoverPage</name>
     <message>
-        <location filename="../qml/cover/DefaultCoverPage.qml" line="46"/>
+        <location filename="../qml/cover/DefaultCoverPage.qml" line="9"/>
         <source>Vocalis</source>
         <translation>Вокализ</translation>
     </message>
@@ -42,7 +42,7 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="55"/>
+        <location filename="../qml/pages/MainPage.qml" line="18"/>
         <source>Vocalis</source>
         <translation>Вокализ</translation>
     </message>

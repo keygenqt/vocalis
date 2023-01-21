@@ -1,5 +1,6 @@
 /vocalis/build*
-/build-terminal
+/build-terminal/
+/build-ide/
 .idea
 .DS_Store
 /shop/translations/*
