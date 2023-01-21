@@ -1,1 +1,9 @@
-/.idea
+/vocalis/build*
+/build-terminal
+.idea
+.DS_Store
+/shop/translations/*
+*pro.user
+.sfdk
+*.autosave
+/vocalis.zip

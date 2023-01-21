@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=com.keygenqt.vocalis
+Exec=/usr/bin/com.keygenqt.vocalis
+Name=Vocalis
+Name[ru]=Вокализ
+
+[X-Application]
+Permissions=Downloads;Internet;WebView
+OrganizationName=com.keygenqt
+ApplicationName=vocalis
+ExecDBus=/usr/bin/com.keygenqt.vocalis
