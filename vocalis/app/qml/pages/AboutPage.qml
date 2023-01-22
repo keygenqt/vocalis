@@ -1,49 +1,42 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import Modifier 1.0
+import Arrangement 1.0
 
 Page {
     objectName: "aboutPage"
     allowedOrientations: Orientation.All
 
-    SilicaFlickable {
-        objectName: "flickable"
-        anchors.fill: parent
-        contentHeight: layout.height + Theme.paddingLarge
+    VColumn {
+        modifier: Modifier {
+            fillMaxWidth: true
+            fillMaxHeight: true
+            padding: Theme.paddingLarge
+            arrangement: Arrangement.SpaceBetween
+        }
 
-        Column {
-            id: layout
-            objectName: "layout"
+        Rectangle {
+            id: rectangle1
             width: parent.width
+            height: 200
+            color: "blue"
+            radius: 10
+        }
 
-            PageHeader {
-                objectName: "pageHeader"
-                title: qsTr("About Application")
-            }
+        Rectangle {
+            id: rectangle2
+            width: parent.width
+            height: 300
+            color: "red"
+            radius: 10
+        }
 
-            Label {
-                objectName: "descriptionText"
-                anchors { left: parent.left; right: parent.right; margins: Theme.horizontalPageMargin }
-                color: palette.highlightColor
-                font.pixelSize: Theme.fontSizeSmall
-                textFormat: Text.RichText
-                wrapMode: Text.WordWrap
-                text: qsTr("#descriptionText")
-            }
-
-            SectionHeader {
-                objectName: "licenseHeader"
-                text: qsTr("3-Clause BSD License")
-            }
-
-            Label {
-                objectName: "licenseText"
-                anchors { left: parent.left; right: parent.right; margins: Theme.horizontalPageMargin }
-                color: palette.highlightColor
-                font.pixelSize: Theme.fontSizeSmall
-                textFormat: Text.RichText
-                wrapMode: Text.WordWrap
-                text: qsTr("#licenseText")
-            }
+        Rectangle {
+            id: rectangle3
+            width: parent.width
+            height: 200
+            color: "green"
+            radius: 10
         }
     }
 }

@@ -8,6 +8,10 @@ Page {
 
     Counter { id: counter }
 
+
+
+
+
     Column {
         spacing: 20
         width: parent.width

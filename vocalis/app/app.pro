@@ -8,9 +8,13 @@ CONFIG += \
 PKGCONFIG += \
 
 SOURCES += \
+    arrangement.cpp \
+    modifier.cpp \
     src/main.cpp \
 
 HEADERS += \
+    arrangement.h \
+    modifier.h
 
 OTHER_FILES += qml/vocalis.qml \
     qml/cover/DefaultCoverPage.qml \

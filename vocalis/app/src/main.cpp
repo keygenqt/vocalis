@@ -1,5 +1,6 @@
 #include <auroraapp.h>
 #include <QtQuick>
+#include <modifier.h>
 
 int main(int argc, char *argv[])
 {
@@ -8,7 +9,12 @@ int main(int argc, char *argv[])
     application->setApplicationName(QStringLiteral("vocalis"));
 
     QScopedPointer<QQuickView> view(Aurora::Application::createView());
+
+    /// Vocalis
+    Modifier::declareQML();
     view->engine()->addImportPath("/usr/lib/com.keygenqt.vocalis/");
+    ///////////
+
     view->setSource(Aurora::Application::pathTo(QStringLiteral("qml/vocalis.qml")));
     view->show();
 

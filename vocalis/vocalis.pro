@@ -7,3 +7,6 @@ SUBDIRS += \
     core \
 
 app.depends = core \
+
+DISTFILES += \
+    app/qml/pages/VColumn.qml
