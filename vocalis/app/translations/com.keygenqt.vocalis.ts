@@ -12,9 +12,9 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="22"/>
+        <location filename="../qml/pages/MainPage.qml" line="18"/>
         <source>Vocalis</source>
-        <translation>Vocalis</translation>
+        <translation type="unfinished">Vocalis</translation>
     </message>
 </context>
 </TS>

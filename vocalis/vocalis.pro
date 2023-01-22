@@ -4,9 +4,6 @@ OTHER_FILES += $$files(rpm/*)
 
 SUBDIRS += \
     app \
-    core \
+    vocalis.core \
 
-app.depends = core \
-
-DISTFILES += \
-    app/qml/pages/VColumn.qml
+app.depends = vocalis.core \

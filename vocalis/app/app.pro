@@ -8,13 +8,9 @@ CONFIG += \
 PKGCONFIG += \
 
 SOURCES += \
-    arrangement.cpp \
-    modifier.cpp \
     src/main.cpp \
 
-HEADERS += \
-    arrangement.h \
-    modifier.h
+HEADERS +=
 
 OTHER_FILES += qml/vocalis.qml \
     qml/cover/DefaultCoverPage.qml \
@@ -36,4 +32,4 @@ tests.path = /usr/share/com.keygenqt.vocalis/tests
 INSTALLS += tests
     
 ## Imports info
-QML_IMPORT_PATH += $$PWD/../core/imports
+QML_IMPORT_PATH += $$PWD/../vocalis.core/imports

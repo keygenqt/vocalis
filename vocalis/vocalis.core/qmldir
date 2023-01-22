@@ -1,0 +1,3 @@
+module VocalisCore
+VStack 1.0 VStack.qml
+plugin vocaliscore

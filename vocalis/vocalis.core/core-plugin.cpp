@@ -1,7 +1,7 @@
 #include "core-plugin.h"
-#include "counter.h"
 #include <qqml.h>
+#include "layoutmodifier.h"
 
 void CorePlugin::registerTypes(const char* uri) {
-    qmlRegisterType<Counter>(uri, 1, 0, "Counter");
+    qmlRegisterType<LayoutModifier>(uri, 1, 0, "LayoutModifier");
 }

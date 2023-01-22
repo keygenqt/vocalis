@@ -1,3 +1,0 @@
-module Core
-CustomButton 1.0 CustomButton.qml
-plugin core
