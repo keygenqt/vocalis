@@ -6,6 +6,9 @@ Vocalis — это группа библиотек, целью которых я
 
 ### Roadmap
 
+- v-stack *in progress*
+- h-stack
+- z-stack
 - button
 - button-icon
 - range-slider
@@ -19,14 +22,15 @@ Vocalis — это группа библиотек, целью которых я
 - text-field
 - toast
 - scaffold
-- h-stack
-- v-stack
-- z-stack
 - spacer
 - pager
 - lottie
 - kmm-agent
 - web-view
+- 
+#### Preview
+
+![vokoscreenNG-2023-01-23_16-10-44.gif](data%2FvokoscreenNG-2023-01-23_16-10-44.gif)
 
 ### License
 

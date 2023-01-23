@@ -12,13 +12,13 @@ QT += qml\
 
 HEADERS += \
     core-plugin.h \
-    layoutmodifier.h \
-    sizemodifier.h
+    coremodifier.h \
+    layoutmodifier.h
 
 SOURCES += \
     core-plugin.cpp \
-    layoutmodifier.cpp \
-    sizemodifier.cpp
+    coremodifier.cpp \
+    layoutmodifier.cpp
 
 DISTFILES += qmldir
 

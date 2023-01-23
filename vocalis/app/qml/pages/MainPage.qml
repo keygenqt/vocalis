@@ -6,49 +6,88 @@ Page {
     objectName: "mainPage"
     allowedOrientations: Orientation.All
 
-    VStack {
-        modifier: LayoutModifier {
-            fillMaxWidth: true
-            fillMaxHeight: true
-        }
+    SilicaFlickable {
+        id: idSilicaFlickable
+        anchors.fill: parent
+        contentHeight: parent.height
 
-        PageHeader {
-            id: idPageHeader
-            objectName: "pageHeader"
-            title: qsTr("Vocalis")
-        }
+        VerticalScrollDecorator {}
 
         VStack {
             modifier: LayoutModifier {
                 fillMaxWidth: true
                 fillMaxHeight: true
-                spacing: Theme.paddingLarge
-                padding: Theme.paddingLarge
-                arrangement: LayoutModifier.SpaceBetween
+                spacing: 160
+                paddingTop: Theme.paddingLarge
+                paddingBottom: 160
+                paddingHorizontal: Theme.paddingLarge
             }
 
             Rectangle {
-                id: rectangle1
                 width: parent.width
-                height: 200
-                color: "blue"
+                height: 111
+                color: "black"
                 radius: 10
+
+                Label {
+                    text: qsTr("Vocalis")
+                    color: 'white'
+                    anchors.right: parent.right
+                    anchors.verticalCenter: parent.verticalCenter
+                    padding: Theme.paddingLarge
+                }
             }
 
-            Rectangle {
-                id: rectangle2
-                width: parent.width
-                height: 300
-                color: "red"
-                radius: 10
+            VStack {
+                id: idVStackChild
+                modifier: LayoutModifier {
+                    fillMaxWidth: true
+                    fillMaxHeight: true
+                    spacing: Theme.paddingMedium
+                    paddingHorizontal: Theme.paddingLarge
+//                    arrangement: LayoutModifier.SpaceBetween
+                }
+
+                Rectangle {
+                    width: parent.width
+                    height: 111
+                    color: "darkblue"
+                    radius: 10
+                }
+
+                Rectangle {
+                    width: parent.width
+                    height: 200
+                    color: "darkgreen"
+                    radius: 10
+                }
+
+//                Rectangle {
+//                    width: parent.width
+//                    height: 500
+//                    color: "darkorchid"
+//                    radius: 10
+//                }
+
+                Rectangle {
+                    width: parent.width
+                    height: 80
+                    color: "darkslategray"
+                    radius: 10
+                }
+
+                Rectangle {
+                    width: parent.width
+                    height: 150
+                    color: "midnightblue"
+                    radius: 10
+                }
             }
 
-            Rectangle {
-                id: rectangle3
-                width: parent.width
-                height: 200
-                color: "green"
-                radius: 10
+
+            onRenderingDone: {
+                idSilicaFlickable.contentHeight = height
+                idVStackChild.contentHeight = height
             }
         }
     }
