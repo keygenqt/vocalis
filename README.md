@@ -6,7 +6,7 @@ Vocalis — это группа библиотек, целью которых я
 
 ### Roadmap
 
-- v-stack *in progress*
+- v-stack - *in progress*
 - h-stack
 - z-stack
 - button
