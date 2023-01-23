@@ -27,7 +27,7 @@ Vocalis — это группа библиотек, целью которых я
 - lottie
 - kmm-agent
 - web-view
-- 
+
 #### Preview
 
 ![vokoscreenNG-2023-01-23_16-10-44.gif](data%2FvokoscreenNG-2023-01-23_16-10-44.gif)
